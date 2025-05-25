@@ -1,3 +1,7 @@
 python etl_runner.py --file "data/Financial Parameters - Arunachalam.xlsx"
 # OR with dry run
 python etl_runner.py --file "data/Financial Parameters - Arunachalam.xlsx" --dry-run
+
+
+postgresql://postgres:<your-password>@db.sjddywpimurfgxylqmix.supabase.co:5432/postgres
+db link
