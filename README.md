@@ -20,6 +20,29 @@ This project extracts financial data from Excel sheets and inserts it into a cen
 
 Our team uses Supabase as a hosted PostgreSQL backend. To connect:
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/harry-rollnum/FinTech-UpToSkills.git
+cd financial-ranker
+```
+2. Install dependencies
+Make sure you have Python 3.9+ and pip installed. Then run:
+```bash
+pip install -r requirements.txt
+```
+This installs:
+
+ - psycopg2-binary (for PostgreSQL connection)
+ - pandas (for Excel processing)
+ - openpyxl (for reading .xlsx files)
+ - python-dotenv (for using .env config)
+
+---
+
 ### 🧩 Required Environment Variables
 
 Create a `.env` file in the project root:
