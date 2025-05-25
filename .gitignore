@@ -1,3 +1,13 @@
+# Ignore everything inside logs/ folder
+logs/*
+temp/
+data/*
+
+# But keep the logs/ and data/ folder itself
+!logs/.gitkeep
+!data/.gitkeep
+
+.env 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

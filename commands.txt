@@ -1,0 +1,3 @@
+python etl_runner.py --file "data/Financial Parameters - Arunachalam.xlsx"
+# OR with dry run
+python etl_runner.py --file "data/Financial Parameters - Arunachalam.xlsx" --dry-run
